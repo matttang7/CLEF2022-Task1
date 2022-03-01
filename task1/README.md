@@ -48,11 +48,13 @@ All leaderboard for dev and test data can be found here, https://competitions.co
 
 ## List of Versions
 * __subtask-1a-1b-1c-1d [2022/02/23]__
- - Training/Dev/Dev_Test data for subtask 1a, 1b, 1c and 1d released for Arabic, Bulgarian, Dutch, and English. For Spanish only subtask 1a Training/Dev/DEV_Test data released. For Turkish Training/DEV data released.
+ - Training/Dev/Dev_Test data for subtasks 1a, 1b, 1c and 1d released for Arabic, Bulgarian, Dutch, and English. For Spanish only subtask 1a Training/Dev/DEV_Test data released. For Turkish Training/DEV data released.
 
 
 ## Contents of the Task 1 Directory
-In each directory, we provide task-specific zip files. Each zip file contains train, dev, and dev_test data released with the tweets and the labels assigned. We provide a single JSONL file for the majority of the languages. Tweet id needs to use to match the data between the TSV file and the JSON file. Note that it might be possible that for many tweets JSON objects are not available, which is due to the deleted tweets at the time of compiling the dataset for CheckThat Lab!.
+In each directory, we provide task-specific zip files. Each zip file contains train, dev, and dev_test data released with the tweets and the labels assigned. We provide a single JSON file for the majority of the languages. The tweet id can be used to match the data between the TSV file and the JSON files. 
+
+**Notice** Many instances in the TSV file might not have a corresponding entry in the JSON file. This is due to the deletion of tweets during the compilation of the datasets.
 
 * Main folder: [data](./data)
   * Subfolder: [subtasks-arabic](./data/subtask-arabic)
@@ -68,7 +70,7 @@ In each directory, we provide task-specific zip files. Each zip file contains tr
   	This directory contains files for all subtasks for the English language.
 
   * Subfolder: [subtask-1A--spanish](./data/subtasks-spanish)
-  	This directory contains files for all subtasks for the Spanish language.
+  	This folder contains files for Subtask 1A for the Spanish language.
 
   * Subfolder: [subtask-1A--turkish](./data/subtasks-turkish)
   	This directory contains files for all subtasks for the Turkish language. Note that, we will soon release data for other subtasks and JSON file is not available for subtask 1A.
@@ -88,7 +90,7 @@ In each directory, we provide task-specific zip files. Each zip file contains tr
 ## Input Data Format
 
 <!-- ### Subtask 1A: Check-Worthiness of Tweets -->
-For all languages (**Arabic**, **Bulgarian**, **Dutch**, **English**, **Spanish** and  **Turkish**) and for all subtasks we have same data format in the train, dev and dev_test files. Each file is TAB seperated (TSV file) containing the tweets and their labels. The text encoding is UTF-8. A row of the file has the following format:
+For all languages (**Arabic**, **Bulgarian**, **Dutch**, **English**, **Spanish** and  **Turkish**) and for all subtasks we use the same data format in the train, dev and dev_test files. Each file is TAB seperated (TSV file) containing the tweets and their labels. The text encoding is UTF-8. Each row in the file has the following format:
 
 > topic <TAB> tweet_id <TAB> tweet_url <TAB> tweet_text <TAB> class_label
 
@@ -121,7 +123,7 @@ Note that the gold labels for the task are the ones in the *class_label* column
 
 
 ## Output Data Format
-For all languages (**Arabic**, **Bulgarian**, **Dutch**, **English**, **Spanish** and  **Turkish**) and subtasks data format is same, which includes submission files.
+For all languages (**Arabic**, **Bulgarian**, **Dutch**, **English**, **Spanish** and  **Turkish**) and subtasks the data format is the same, which includes submission files.
 
 For each subtask, the expected results file is a list of tweets with the class label for the particular subtask. Each row contains four TAB separated fields:
 
