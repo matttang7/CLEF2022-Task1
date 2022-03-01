@@ -1,12 +1,10 @@
 # Task 1:  Fighting the COVID-19 Infodemic
 
-This repository contains the _datasets_, _format checker, scorer and baselines_ for the [CLEF2022-CheckThat! Task 1](https://sites.google.com/view/clef2022-checkthat/tasks/task-1-fighting-the-covid-19-infodemic).
-The task consists in ranking a stream of tweets according to their check-worthiness.
+This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2022-CheckThat! Task 1](https://sites.google.com/view/clef2022-checkthat/tasks/task-1-fighting-the-covid-19-infodemic).
+In this task, we focus on the **classification** of tweets in different languages (i.e., Arabic, Bulgarian, Dutch, English, Spanish, Turkish) and different subtasks: (i) Check-worthiness, (ii) Verifiable factual claims detection, (iii) Harmful tweet detection, and (iv) Attention-worthy tweet detection.
 
 
-This file contains the basic information regarding the CLEF2022-CheckThat! Task 1
-on Fighting the COVID-19 Infodemic on tweets provided for the CLEF2022-CheckThat! Lab.
-The current version, as listed bellow, corresponds to the release of the training, dev, and dev_test data sets. The dev partition can be used for fine-tuning, whereas dev_test partition can be used for internal evaluation, before the release of the final test set. The official evaluation will be based on the final test set (not yet available).
+This file contains the basic information regarding the CLEF2022-CheckThat! Task 1 on Fighting the COVID-19 Infodemic on tweets provided for the CLEF2022-CheckThat! Lab on "Fighting the COVID-19 Infodemic and Fake News Detection". The current version is listed bellow corresponds to the release of the training, dev, and dev_test data sets. The dev can be used to fine-tune the model and dev_test can be used to evaluate the performance of the model. The final evaluation will be based on the final test set.
 
 
 
