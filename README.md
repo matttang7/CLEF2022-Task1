@@ -3,7 +3,7 @@ This repository contains the _dataset_, _format checker, scorer and baselines_ f
 The shared task focuses on detecting check-worthy claims, previously fact-checked claims, and fake news.
 The CLEF2022-CheckThat! Lab has three main tasks each offered in variety of languages:
 
-  - [Task 1: Fighting the COVID-19 Infodemic](task1)
+  - [Task 1: Identifying Relevant Claims in Tweets](task1)
     - Subtask 1A: Check-worthiness estimation
       - **Arabic**
       - **Bulgarian**

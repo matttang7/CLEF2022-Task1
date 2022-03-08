@@ -1,4 +1,4 @@
-# Task 1:  Fighting the COVID-19 Infodemic
+# Task 1: Identifying Relevant Claims in Tweets
 
 This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2022-CheckThat! Task 1](https://sites.google.com/view/clef2022-checkthat/tasks/task-1-fighting-the-covid-19-infodemic).
 In this task, we focus on the **classification** of tweets in different languages (i.e., Arabic, Bulgarian, Dutch, English, Spanish, Turkish) and different subtasks: (i) Check-worthiness, (ii) Verifiable factual claims detection, (iii) Harmful tweet detection, and (iv) Attention-worthy tweet detection.
@@ -100,7 +100,7 @@ Where: <br>
 * class_label:
  * subtasks (1A, 1B, 1C): *yes* and *no*
  * subtask (1D):
-   * *no_not_interesting*,
+  * *no_not_interesting*,
 	* *yes_asks_question*,
 	* *yes_blame_authorities*,
 	* *yes_calls_for_action*,
@@ -181,7 +181,7 @@ To launch the baseline script you need to install packages dependencies found in
 To launch the baseline script run the following:
 > python3 baselines/subtask_1a.py --train-file-path=<path_to_your_training_data> --test-file-path=<path_to_your_test_data_to_be_evaluated> --subtask=<name_of_the_subtask> --lang=<language_of_the_subtask_1a><br/>
 
-All baselines will be trained on the training tweets and the performance of the model was evaluated on the dev_test tweets.
+All baselines will be trained on the training tweets and the performance of the model was evaluated on the test tweets.
 <!-- The MAP score of both baselines are as follows:<br/>
 | Model | English | Arabic | Spanish | Bulgarian |
 | :---: | :---: | :---: | :---: | :---: |
@@ -194,6 +194,6 @@ All baselines will be trained on the training tweets and the performance of the 
 
 <!-- Task 1 Organizers: TBA -->
 
-Task website: https://sites.google.com/view/clef2022-checkthat/tasks/task-1-fighting-the-covid-19-infodemic
+Task website: https://sites.google.com/view/clef2022-checkthat/tasks/task-1-identifying-relevant-claims-in-tweets
 
 Contact:   clef-factcheck@googlegroups.com

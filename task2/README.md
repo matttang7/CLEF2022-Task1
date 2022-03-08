@@ -1,16 +1,13 @@
 # Task 2: Detecting Previously Fact-Checked Claims
 
-This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2021-CheckThat! Task 2](https://sites.google.com/view/clef2021-checkthat/tasks/task-2-claim-retrieval).
+This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2022-CheckThat! Task 2](https://sites.google.com/view/clef2022-checkthat/tasks/task-2-detecting-previously-fact-checked-claims).
 Given a check-worthy claim in the form of a tweet, and a set of previously fact-checked claims, rank the previously fact-checked claims in order of usefulness to fact-check the input claim.
 
 ````
-FCPD corpus for the CLEF-2021 LAB on "Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News"
+FCPD corpus for the CLEF-2022 LAB on "Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News"
 ````
 
-This file contains the basic information regarding the CLEF2021-CheckThat! Task 2
-on check-worthiness on tweets provided for the CLEF2021-CheckThat! Lab
-on "Automatic Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News".
-The current version are listed bellow corresponds to the release of the training and dev data sets.
+This file contains the basic information regarding the CLEF2022-CheckThat! Task 2 is on Detecting Previously Fact-Checked Claims tweets and political debates. The current version are listed bellow corresponds to the release of the training and dev data sets.
 
 __Table of contents:__
 - [Evaluation Results](#evaluation-results)
@@ -49,10 +46,8 @@ All leaderboards for dev and test data can be found here, https://competitions.c
 
 # List of Versions
 
-* __subtask-2a--english-v1.0 [2021/04/06]__ - Training/Dev data for subtask-2a--english released.
-* __subtask-2a--arabic-v1.1 [2021/04/02]__ - Training/Dev data for subtask-2a--arabic released.
-* __subtask-2b--english-v1.0 [2021/02/22]__ - Training/Dev data for subtask-2b--english released. Containing 562 iclaim--vclaim pair for train and 140 iclaim--vclaim pair for dev.
-
+* __all_subtasks [2022/02/23]__
+ - Training/Dev data for all subtasks 2a--english, 2a--arabic and 2b--english are released.
 
 # Contents of the Task 2 Directory
 We provide the following files:
@@ -352,6 +347,6 @@ To launch the elasticsearch baseline script run the following:
 
 Task 2 Organizers: TBA
 
-Task website: https://sites.google.com/view/clef2022-checkthat/tasks/task-2-previously-fact-checked-claims-detection
+Task website: https://sites.google.com/view/clef2022-checkthat/tasks/task-2-detecting-previously-fact-checked-claims
 
 Contact:   clef-factcheck@googlegroups.com
