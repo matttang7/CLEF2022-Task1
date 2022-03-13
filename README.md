@@ -125,8 +125,8 @@ We listed the following tools/source code, which might be helpful to run the exp
 
 
 ## Recommended reading
-The following papers might be useful. We have not provided exhaustive list. But these could be a good start.
-[Download bibliography:](bibliography.bib)<br>
+The following papers might be useful. We have not provided exhaustive list. But these could be a good start.<br>
+[Download bibliography](bibliography.bib)
 
 **Fact-checking**
 * Nakov, Preslav, David Corney, Maram Hasanain, Firoj Alam, and Tamer Elsayed. **"Automated Fact-Checking for Assisting Human Fact-Checkers."** in IJCAI, 2021.
