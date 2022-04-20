@@ -103,8 +103,6 @@ public_id, predicted_rating
 2, true
 ```
 
-## Scorers
-
 ### Multi-Class Fake News Detection of News Articles
 
 # Evaluation Metrics
@@ -115,11 +113,13 @@ Submission Link: Coming Soon
 
 Evaluation File task3/evaluation/CLEF_-_CheckThat__Task3ab_-_Evaluation.txt
 
-## Baselines
+# Baselines
 
 ### Task 3: Multi-Class Fake News Detection of News Articles
 
 For this task, we have created a baseline system. The baseline system can be found at https://zenodo.org/record/6362498
+
+## Scorers
 
 
 ## Credits
