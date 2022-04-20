@@ -24,16 +24,16 @@ __Table of contents:__
 - [List of Versions](#list-of-versions)
 - [Contents of the Task 3 Directory](#contents-of-the-repository)
 - [Input Data Format](#input-data-format)
-	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles)
+	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles)
 - [Output Data Format](#output-data-format)
-	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-1)
+	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-1)
 - [Format Checkers](#format-checkers)
-	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-2)
+	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-2)
 - [Scorers](#scorers)
-	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-3)
+	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-3)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Baselines](#baselines)
-	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-4)
+	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-4)
 - [Credits](#credits)
 
 ## Evaluation Results
@@ -42,13 +42,13 @@ TBA
 
 ## List of Versions
 
-- **subtask-3b--english-v1.0 [2022/24/03]** - data for task 3A is released.
+- **Task 3--english-v1.0 [2022/24/03]** - data for task 3 is released.
 
 ## Contents of the Task 3 Directory
 We provide the following files:
 
 - Main folder: [data](./data)
-  - subfolder: subtask-3A--english
+  - subfolder: Task 3--english
 - Main folder: [baseline](./baseline)<br/>
 - 	Contains scripts provided for baseline models of the tasks
 - Main folder: [baseline](./format_checker)<br/>
@@ -64,32 +64,32 @@ We provide the following files:
 
 The data will be provided in the format of Id, title, text, rating, domain the description of column are as follows:
 
-## Task 3A
+## Task 3
 - public_id- Unique indetifier of the news article
 - title- Title of the news article
 - text- Text mentioned inside the news article
 - our rating - class of the news article as false, partially false, true, other
 
-### Subtask 3A: Multi-Class Fake News Detection of News Articles
+### Multi-Class Fake News Detection of News Articles
 
-Subtask 3A: Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 900 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other.
+Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 900 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other.
 
 ### Cross-Lingual Task
 
-Subtask 3B:  Fact-checkers require background expertise to identify the truthfulness of an article. The categorisation will help to automate the sampling process from a stream of data. Given the text of a news article, determine the topical domain of the article (English). This is a classification problem. The task is to categorise fake news articles into six topical categories like **health, election, crime, climate, economy, education**. This task will be offered for a subset of the data of Subtask 3A.
+Along with the multi-class task for the English language, we have introduced a task for low resourced language. We will provide the data for dev and test in the German language. The idea of the task is to use the English data and the concept of transfer to build a classification model for the German language.
 
 ## Output Data Format
 
-### Subtask 3A: Multi-Class Fake News Detection of News Articles
+### Task 3: Multi-Class Fake News Detection of News Articles
 
 We need the output file in the format of public_id, predicted_rating.
 
 
 ## Format Checkers
 
-#### Subtask 3A: Multi-Class Fake News Detection of News Articles
+#### Task 3: Multi-Class Fake News Detection of News Articles
 
-Task 3a
+Task 3
 
 public_id- Unique identifier of the news article
 predicted_rating- predicted class
@@ -103,7 +103,7 @@ public_id, predicted_rating
 
 ## Scorers
 
-### Subtask 3A: Multi-Class Fake News Detection of News Articles
+### Multi-Class Fake News Detection of News Articles
 
 ## Evaluation Metrics
 
@@ -115,7 +115,7 @@ Evaluation File task3/evaluation/CLEF_-_CheckThat__Task3ab_-_Evaluation.txt
 
 ## Baselines
 
-### Subtask 3A: Multi-Class Fake News Detection of News Articles
+### Task 3: Multi-Class Fake News Detection of News Articles
 
 For this task, we have created a baseline system. The baseline system can be found at https://zenodo.org/record/6362498
 
