@@ -80,14 +80,14 @@ Multi-class fake news detection of news articles (English): Sub-task A would be 
 
 Along with the multi-class task for the English language, we have introduced a task for low resourced language. We will provide the data for dev and test in the German language. The idea of the task is to use the English data and the concept of transfer to build a classification model for the German language.
 
-## Output Data Format
+# Output Data Format
 
 ### Task 3: Multi-Class Fake News Detection of News Articles
 
 We need the output file in the format of public_id, predicted_rating.
 
 
-## Format Checkers
+# Format Checkers
 
 #### Task 3: Multi-Class Fake News Detection of News Articles
 
@@ -107,7 +107,7 @@ public_id, predicted_rating
 
 ### Multi-Class Fake News Detection of News Articles
 
-## Evaluation Metrics
+# Evaluation Metrics
 
 This task is evaluated as a classification task. We will use the F1-macro measure for the ranking of teams. There is a limit of 5 runs (total and not per day), and only one person from a team is allowed to submit runs.
 
