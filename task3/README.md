@@ -26,7 +26,7 @@ __Table of contents:__
 - [Input Data Format](#input-data-format)
 	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles)
 - [Output Data Format](#output-data-format)
-	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-1)
+	- [Task 3: Multi-Class Fake News Detection of News Articles](#Multi-Class-Fake-News-Detection-of-News-Articles)
 - [Format Checkers](#format-checkers)
 	- [Task 3: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-2)
 - [Scorers](#scorers)
@@ -42,7 +42,7 @@ TBA
 
 ## List of Versions
 
-- **Task 3--english-v1.0 [2022/24/03]** - data for task 3 is released.
+- **Task 3--English-v1.0 [2022/24/03]** - data for task 3 is released.
 
 ## Contents of the Task 3 Directory
 We provide the following files:
@@ -60,17 +60,19 @@ We provide the following files:
 
 
 
-## Input Data Format
+# Input Data Format
 
 The data will be provided in the format of Id, title, text, rating, domain the description of column are as follows:
 
 ## Task 3
+```
 - public_id- Unique indetifier of the news article
 - title- Title of the news article
 - text- Text mentioned inside the news article
 - our rating - class of the news article as false, partially false, true, other
+```
 
-### Multi-Class Fake News Detection of News Articles
+# Multi-Class Fake News Detection of News Articles
 
 Multi-class fake news detection of news articles (English): Sub-task A would be the detection of fake news designed as a four-class classification problem. The training data will be released in batches and will be roughly about 900 articles with the respective label. Given the text of a news article, determine whether the main claim made in the article is true, partially true, false, or other.
 
@@ -119,24 +121,14 @@ Evaluation File task3/evaluation/CLEF_-_CheckThat__Task3ab_-_Evaluation.txt
 
 For this task, we have created a baseline system. The baseline system can be found at https://zenodo.org/record/6362498
 
-```
-@inproceedings{shahifakecovid,
-title={Fake{C}ovid -- A Multilingual Cross-domain Fact Check News Dataset for COVID-19},
-author={Shahi, Gautam Kishore and Nandini, Durgesh},
-booktitle={Workshop Proceedings of the 14th International {AAAI} {C}onference on {W}eb and {S}ocial {M}edia},
-year = {2020},
-url = {http://workshop-proceedings.icwsm.org/pdf/2020_14.pdf}
-}
-```
 
 ## Credits
 
 Task 3 Organizers:
 
-- Thomas Mandl, University of Hildesheim
-- Julia Maria Struß, University of Applied Sciences Potsdam
-- Gautam Kishore Shahi, University of Duisburg-Essen
-- Sandip Modha, LDRP Institute of Technology and Research
+- Thomas Mandl, University of Hildesheim, Germany
+- Julia Maria Struß, University of Applied Sciences Potsdam, Germany
+- Gautam Kishore Shahi, University of Duisburg-Essen, Germany
 
 Task website: https://sites.google.com/view/clef2022-checkthat/tasks/task-3-fake-news-detection
 
