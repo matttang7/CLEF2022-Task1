@@ -51,10 +51,8 @@ We provide the following files:
   - subfolder: Task 3--english
 - Main folder: [baseline](./baseline)<br/>
 - 	Contains scripts provided for baseline models of the tasks
-- Main folder: [baseline](./format_checker)<br/>
-- 	Contains scripts provided to check format of the submission file
-- Main folder: [baseline](./scorer)<br/>
-- 	Contains scripts provided to score output of the model when provided with label (i.e., dev set).
+- Main folder: [evaluation(./format_checker)<br/>
+- 	Contains scripts provided to evaluate submission file
 - [README.md](./README.md) <br/>
 - 	This file!
 
