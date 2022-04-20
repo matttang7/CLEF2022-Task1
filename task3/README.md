@@ -51,7 +51,7 @@ We provide the following files:
   - subfolder: Task 3--english
 - Main folder: [baseline](./baseline)<br/>
 - 	Contains scripts provided for baseline models of the tasks
-- Main folder: [evaluation(./format_checker)<br/>
+- Main folder: [evaluation](./format_checker)<br/>
 - 	Contains scripts provided to evaluate submission file
 - [README.md](./README.md) <br/>
 - 	This file!
