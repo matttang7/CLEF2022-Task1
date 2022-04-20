@@ -1,6 +1,6 @@
 # Task 3: Fake News Detection
 
-This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2021-CheckThat! Task 3](https://sites.google.com/view/clef2021-checkthat/tasks/task-3-fake-news-detection).
+This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2022-CheckThat! Task 3](https://sites.google.com/view/clef2021-checkthat/tasks/task-3-fake-news-detection).
 Given the text of a news article, determine whether the claims made in the article are true, partially true, false or other (e.g., claims in dispute) and also detect the topical domain of the article. This task will run in English.
 
 This file contains the basic information regarding the CLEF2022-CheckThat! Task 3
@@ -25,20 +25,15 @@ __Table of contents:__
 - [Contents of the Task 3 Directory](#contents-of-the-repository)
 - [Input Data Format](#input-data-format)
 	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles)
-	- [Subtask 3B: Topical Domain Classification of News Articles](#Subtask-3B-Topical-Domain-Classification-of-News-Articles)
 - [Output Data Format](#output-data-format)
 	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-1)
-	- [Subtask 3B: Topical Domain Classification of News Articles](#Subtask-3B-Topical-Domain-Classification-of-News-Articles-1)
 - [Format Checkers](#format-checkers)
 	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-2)
-	- [Subtask 3B: Topical Domain Classification of News Articles](#Subtask-3B-Topical-Domain-Classification-of-News-Articles-2)
 - [Scorers](#scorers)
 	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-3)
-	- [Subtask 3B: Topical Domain Classification of News Articles](#Subtask-3B-Topical-Domain-Classification-of-News-Articles-3)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Baselines](#baselines)
 	- [Subtask 3A: Multi-Class Fake News Detection of News Articles](#Subtask-3A-Multi-Class-Fake-News-Detection-of-News-Articles-4)
-	- [Subtask 3B: Topical Domain Classification of News Articles](#Subtask-3B-Topical-Domain-Classification-of-News-Articles-4)
 - [Credits](#credits)
 
 ## Evaluation Results
@@ -54,7 +49,6 @@ We provide the following files:
 
 - Main folder: [data](./data)
   - subfolder: subtask-3A--english
-  - subfolder: subtask-3B--english
 - Main folder: [baseline](./baseline)<br/>
 - 	Contains scripts provided for baseline models of the tasks
 - Main folder: [baseline](./format_checker)<br/>
@@ -110,31 +104,6 @@ public_id, predicted_rating
 ## Scorers
 
 ### Subtask 3A: Multi-Class Fake News Detection of News Articles
-```
-  |   **Team/Participant Name**  |   **Score ** |   
-  |   NoFake  |   0.8376451772  |   
-  |   kannanrrk  |   0.5034290158  |   
-  |   jmartinez595  |   0.4680478564  |   
-  |   hariharanrl  |   0.448832841  |   
-  |   cipriancus  |   0.4463072939  |   
-  |   Huertas97  |   0.4142550112  |   
-  |   pHartl  |   0.4041478353  |   
-  |   boby024  |   0.4013434521  |   
-  |   nomanashraf712  |   0.3892308335  |   
-  |   SaifuddinSohan  |   0.3822517154  |   
-  |   Ninko  |   0.3579356596  |   
-  |   talhaanwar  |   0.3567233441  |   
-  |   abaruah  |   0.3432240588  |   
-  |   rsepulveda911112  |   0.3030264254  |   
-  |   almamun  |   0.2607967091  |   
-  |   architap  |   0.2566547582  |   
-  |   fazlfrs  |   0.2334558443  |   
-  |   rafiuzzaman15-9655  |   0.2329868721  |   
-  |   ashik2580  |   0.2225799978  |   
-  |   thoufiq  |   0.1857022836  |   
-  |   Rudra  |   0.1498333201  |   
-  |   ep  |   0.1347957835  |
-```
 
 ## Evaluation Metrics
 
