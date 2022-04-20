@@ -42,7 +42,7 @@ TBA
 
 ## List of Versions
 
-- **Task 3--english-v1.0 [2022/24/03]** - data for task 3 is released.
+- **Task 3--English-v1.0 [2022/24/03]** - data for task 3 is released.
 
 ## Contents of the Task 3 Directory
 We provide the following files:
@@ -133,10 +133,9 @@ url = {http://workshop-proceedings.icwsm.org/pdf/2020_14.pdf}
 
 Task 3 Organizers:
 
-- Thomas Mandl, University of Hildesheim
-- Julia Maria Struß, University of Applied Sciences Potsdam
-- Gautam Kishore Shahi, University of Duisburg-Essen
-- Sandip Modha, LDRP Institute of Technology and Research
+- Thomas Mandl, University of Hildesheim, Germany
+- Julia Maria Struß, University of Applied Sciences Potsdam, Germany
+- Gautam Kishore Shahi, University of Duisburg-Essen, Germany
 
 Task website: https://sites.google.com/view/clef2022-checkthat/tasks/task-3-fake-news-detection
 
