@@ -119,6 +119,7 @@ The following papers might be useful. We have not provided exhaustive list. But 
 
 * Shaar, Shaden, Firoj Alam, Giovanni Da San Martino, and Preslav Nakov. **"Assisting the Human Fact-Checkers: Detecting All Previously Fact-Checked Claims in a Document."** arXiv preprint arXiv:2109.07410 (2021).
 
+* Shaar, Shaden, Firoj Alam, Giovanni Da San Martino, and Preslav Nakov. **"The role of context in detecting previously fact-checked claims."** arXiv preprint arXiv:2104.07423 (2021).
 
 **COVID-19 Infodemic**
 * Alam, Firoj, Shaden Shaar, Fahim Dalvi, Hassan Sajjad, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino et al. **["Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society."](https://aclanthology.org/2021.findings-emnlp.56.pdf)** In Findings of the Association for Computational Linguistics: EMNLP 2021, pp. 611-649. 2021.
