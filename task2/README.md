@@ -45,7 +45,9 @@ Submission Guidelines:
 All leaderboards for dev and test data can be found here, https://competitions.codalab.org/competitions/30949.
 
 # List of Versions
-
+* __subtask-1a-1b-1c-1d [2022/04/22]__
+	- Test data released for all subtasks.
+	- Dev_Test data for all subtasks 2a--english, 2a--arabic and 2b--english are released.
 * __all_subtasks [2022/02/23]__
  - Training/Dev data for all subtasks 2a--english, 2a--arabic and 2b--english are released.
 

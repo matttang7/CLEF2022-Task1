@@ -86,33 +86,19 @@ Contact:   clef-factcheck@googlegroups.com
 
 You can find the overview paper on the CLEF2022-CheckThat! Lab in the paper, "The CLEF-2022 CheckThat! Lab on Fighting the COVID-19 Infodemic and Fake News Detection".
 
-<!-- ```
-@InProceedings{​​​​​​​CheckThat:ECIR2022,
-  author    = {​​​​​​​Preslav Nakov and
-               Da San Martino, Giovanni and
-               Tamer Elsayed and
-               Alberto Barr{​​​​​​​\'{​​​​​​​o}​​​​​​​}​​​​​​​n{​​​​​​​-}​​​​​​​Cede{​​​​​​​\~{​​​​​​​n}​​​​​​​}​​​​​​​o and
-               Rub\'{​​​​​​​e}​​​​​​​n M\'{​​​​​​​i}​​​​​​​guez and
-               Shaden Shaar and
-               Firoj Alam and
-               Fatima Haouari and
-               Maram Hasanain and
-               Nikolay Babulkov and
-               Alex Nikolov and
-               Shahi, Gautam Kishore and
-               Struß, Julia Maria and
-               Thomas Mandl}​​​​​​​,
-  title     = {​​​​​​​The {​​​​​​​CLEF}​​​​​​​-2021 {​​​​​​​CheckThat}​​​​​​​! Lab on Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News}​​​​​​​,
-    booktitle = {​​​​​​​Proceedings of the 43rd European Conference on Information Retrieval}​​​​​​​,
-    series = {​​​​​​​ECIR~'21}​​​​​​​,
-    pages = {​​​​​​​639--649}​​​​​​​,
-    address   = {​​​​​​​Lucca, Italy}​​​​​​​,
-    month     = {​​​​​​​March}​​​​​​​,
-    year      = {​​​​​​​2021}​​​​​​​,
-    url = {​​​​​​​https://link.springer.com/chapter/10.1007/978-3-030-72240-1_75}​​​​​​​​
-}​​​​​​​
-
-``` -->
+```
+@InProceedings{CheckThat:ECIR2022,
+author="Nakov, Preslav and Barr{\'o}n-Cede{\~{n}}o, Alberto and Da San Martino, Giovanni and Alam, Firoj and Stru{\ss}, Julia Maria and Mandl, Thomas and M{\'i}guez, Rub{\'e}n and Caselli, Tommaso and Kutlu, Mucahid and Zaghouani, Wajdi and Li, Chengkai and Shaar, Shaden and Shahi, Gautam Kishore and Mubarak, Hamdy and Nikolov, Alex and Babulkov, Nikolay and Kartal, Yavuz Selim and Beltr{\'a}n, Javier",
+editor="Hagen, Matthias and Verberne, Suzan and Macdonald, Craig and Seifert, Christin and Balog, Krisztian and N{\o}rv{\aa}g, Kjetil and Setty, Vinay",
+title="The CLEF-2022 CheckThat! Lab on Fighting the COVID-19 Infodemic and Fake News Detection",
+booktitle="Advances in Information Retrieval",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="416--428",
+isbn="978-3-030-99739-7"
+}
+```
 
 ## Additional Resources (Tools/Source code)
 We listed the following tools/source code, which might be helpful to run the experiments.
@@ -129,10 +115,18 @@ The following papers might be useful. We have not provided exhaustive list. But 
 [Download bibliography](bibliography.bib)
 
 **Fact-checking**
-* Nakov, Preslav, David Corney, Maram Hasanain, Firoj Alam, and Tamer Elsayed. **"Automated Fact-Checking for Assisting Human Fact-Checkers."** in IJCAI, 2021.
+* Nakov, Preslav, David Corney, Maram Hasanain, Firoj Alam, and Tamer Elsayed. **["Automated Fact-Checking for Assisting Human Fact-Checkers."](https://www.ijcai.org/proceedings/2021/0619.pdf)** in IJCAI, 2021.
+
+* Shaar, Shaden, Firoj Alam, Giovanni Da San Martino, and Preslav Nakov. **"Assisting the Human Fact-Checkers: Detecting All Previously Fact-Checked Claims in a Document."** arXiv preprint arXiv:2109.07410 (2021).
+
 
 **COVID-19 Infodemic**
-* Alam, Firoj, Shaden Shaar, Fahim Dalvi, Hassan Sajjad, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino et al. **"Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society."** In Findings of the Association for Computational Linguistics: EMNLP 2021, pp. 611-649. 2021.
+* Alam, Firoj, Shaden Shaar, Fahim Dalvi, Hassan Sajjad, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino et al. **["Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society."](https://aclanthology.org/2021.findings-emnlp.56.pdf)** In Findings of the Association for Computational Linguistics: EMNLP 2021, pp. 611-649. 2021.
+
+* Shaar, Shaden, Firoj Alam, Giovanni Da San Martino, Alex Nikolov, Wajdi Zaghouani, Preslav Nakov, and Anna Feldman. **"Findings of the NLP4IF-2021 Shared Tasks on Fighting the COVID-19 Infodemic and Censorship Detection."** In Proceedings of the Fourth Workshop on NLP for Internet Freedom: Censorship, Disinformation, and Propaganda, pp. 82-92. 2021.
+
+* Nakov, Preslav, Firoj Alam, Shaden Shaar, Giovanni Da San Martino, and Yifan Zhang. **"A Second Pandemic? Analysis of Fake News about COVID-19 Vaccines in Qatar."** In Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2021), pp. 1010-1021. 2021.
+* Nakov, Preslav, Firoj Alam, Shaden Shaar, Giovanni Da San Martino, and Yifan Zhang. **"COVID-19 in Bulgarian social media: Factuality, harmfulness, propaganda, and framing."** In Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2021), pp. 997-1009. 2021.
 
 **Tasks papers from previous years**
 * Nakov, Preslav, Giovanni Da San Martino, Tamer Elsayed, Alberto Barrón-Cedeño, Rubén Míguez, Shaden Shaar, Firoj Alam et al. **"Overview of the CLEF–2021 CheckThat! Lab on Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News."** In International Conference of the Cross-Language Evaluation Forum for European Languages, pp. 264-291. Springer, Cham, 2021.

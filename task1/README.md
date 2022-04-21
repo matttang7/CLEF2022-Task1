@@ -6,6 +6,7 @@ In this task, we focus on the **classification** of tweets in different language
 
 This file contains the basic information regarding the CLEF2022-CheckThat! Task 1 on Fighting the COVID-19 Infodemic on tweets provided for the CLEF2022-CheckThat! Lab on "Fighting the COVID-19 Infodemic and Fake News Detection". The current version is listed bellow corresponds to the release of the training, dev, and dev_test data sets. The dev can be used to fine-tune the model and dev_test can be used to evaluate the performance of the model. The final evaluation will be based on the final test set.
 
+<span style="color:red;font-size:2em;">NOTE: Please download latest data updated on 22nd April.</span>.
 
 
 __Table of contents:__
@@ -28,6 +29,7 @@ __Table of contents:__
 - [Baselines](#baselines)
 	<!-- - [Subtask 1A: Check-Worthiness of Tweets](#subtask-1a-check-worthiness-of-tweets-4) -->
 	<!-- - [Subtask 1B: Check-Worthiness of Debates/Speeches](#subtask-1b-check-worthiness-of-debatesspeeches-4) -->
+- [Submission guidelines](#submission-guidelines)
 - [Credits](#credits)
 
 ## Evaluation Results
@@ -47,12 +49,16 @@ All leaderboard for dev and test data can be found here, https://competitions.co
 
 
 ## List of Versions
+* __subtask-1a-1b-1c-1d [2022/04/22]__
+  - Test data released for all subtasks.
+  - Some fixes has been done on Turkish data (please download updated Training/Dev/DEV_Test data)
+
 * __subtask-1a-1b-1c-1d [2022/02/23]__
  - Training/Dev/Dev_Test data for subtasks 1a, 1b, 1c and 1d released for Arabic, Bulgarian, Dutch, and English. For Spanish only subtask 1a Training/Dev/DEV_Test data released. For Turkish Training/DEV data released.
 
 
 ## Contents of the Task 1 Directory
-In each directory, we provide task-specific zip files. Each zip file contains train, dev, and dev_test data released with the tweets and the labels assigned. We provide a single JSON file for the majority of the languages. The tweet id can be used to match the data between the TSV file and the JSON files. 
+In each directory, we provide task-specific zip files. Each zip file contains train, dev, and dev_test data released with the tweets and the labels assigned. We provide a single JSON file for the majority of the languages. The tweet id can be used to match the data between the TSV file and the JSON files.
 
 **Notice** Many instances in the TSV file might not have a corresponding entry in the JSON file. This is due to the deletion of tweets during the compilation of the datasets.
 
@@ -190,7 +196,8 @@ All baselines will be trained on the training tweets and the performance of the 
 | Random Baseline | 0.4795 |  | 0.0806 | 0.2045 |
 | Ngram Baseline  | 0.5916 |  | 0.4122 | 0.4729 | -->
 
-
+## Submission guidelines
+Please follow the submission guidelines discussed here: https://sites.google.com/view/clef2022-checkthat/tasks/task-1-identifying-relevant-claims-in-tweets?#h.sn4sm5zguq98.
 
 ## Credits
 

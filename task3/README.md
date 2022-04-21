@@ -1,11 +1,9 @@
 # Task 3: Fake News Detection
 
-This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2022-CheckThat! Task 3](https://sites.google.com/view/clef2021-checkthat/tasks/task-3-fake-news-detection).
-Given the text of a news article, determine whether the claims made in the article are true, partially true, false or other (e.g., claims in dispute) and also detect the topical domain of the article. This task will run in English.
+This repository contains the _dataset_, _format checker, scorer and baselines_ for the [CLEF2022-CheckThat! Task 3](https://sites.google.com/view/clef2022-checkthat/tasks/task-3-fake-news-detection).
+Given the text of a news article, determine whether the claims made in the article are true, partially true, false or other (e.g., claims in dispute) and also detect the topical domain of the article. This task will run in English and German.
 
-This file contains the basic information regarding the CLEF2022-CheckThat! Task 3
-on check-worthiness on tweets provided for the CLEF2021-CheckThat! Lab
-on "Automatic Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News".
+This file contains the basic information regarding the CLEF2022-CheckThat! Task 3 on check-worthiness on tweets provided for the CLEF2022-CheckThat! Lab on "Fighting the COVID-19 Infodemic and Fake News Detection".
 
 <!-- The current version (?) corresponds to the release of the first batch of the training data set.
 The test set is released with the current version. -->
