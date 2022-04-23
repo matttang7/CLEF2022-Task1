@@ -331,7 +331,7 @@ To launch the baseline script you need to install packages dependencies found in
 
 ## Random Baseline
 To launch the random baseline script run the following:
-> python3 baselines/random_baseline.py --train-file-path= --test-file-path= --lang= --subtask= --vclaims-dir-path= <br/>
+> python3 baselines/random_baseline.py --train-file-path= --dev-file-path= --lang= --subtask= --vclaims-dir-path= <br/>
 
 
 ## Elasticsearch Baseline
@@ -340,14 +340,12 @@ You can follow [this](https://www.elastic.co/guide/en/elasticsearch/reference/cu
 > /path/to/elasticsearch
 
 To launch the elasticsearch baseline script run the following:
-> python3 baselines/elasticsearch_baseline.py --train-file-path= --test-file-path= --lang= --subtask= --vclaims-dir-path=  --iclaims-file-path=  <br/>
+> python3 baselines/elasticsearch_baseline.py --train-file-path= --dev-file-path= --lang= --subtask= --vclaims-dir-path=  --iclaims-file-path=  <br/>
 
 **NOTE:** There are other parameters you can play with in the elasticsearch baseline script.
 
 
 # Credits
-
-Task 2 Organizers: TBA
 
 Task website: https://sites.google.com/view/clef2022-checkthat/tasks/task-2-detecting-previously-fact-checked-claims
 
