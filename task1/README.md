@@ -33,19 +33,18 @@ __Table of contents:__
 - [Credits](#credits)
 
 ## Evaluation Results
-
+Submitted results will be available after the system submission deadline.
 <!-- Kindly find the leaderboard released in this google sheet, [link](https://tinyurl.com/kfmawuke). you can find in the tab labeled "Task 1". -->
 
-<!-- Submission Guidelines:
+**Submission Guidelines:**
 - Make sure that you create one account for each team, and submit it through one account only.
+- <span style="color:blue;font-size:1.2em;">We will keep the leaderboard private till the end of the submission period, hence, results will not be available upon submission. All results will be available after the evaluation period.</span>
+- You are allowed to submit max 200 submissions per day for each subtask.
 - The last file submitted to the leaderboard will be considered as the final submission.
-- The output file has to have a `.tsv` extension; otherwise, you will get an error on the leaderboard.
-- You need to write a small description of the model submitted in a `.txt` file.
-- You have to zip the tsv, `zip submission.zip path_to_tsv_pred_file_1.tsv path_to_tsv_pred_file_2.tsv ... path_to_tsv_pred_file_n.tsv model_description.txt` and submit it through the codalab page.
+- Name of the output file have to be "subtask1[A/B/C/D]_SHORT-NAME-OF-THE-SUBTASK_LANG.tsv" with ".tsv" extension (e.g., subtask1B_claim_arabic.tsv); otherwise, you will get an error on the leaderboard. Subtask are 1A, 1B, 1C, 1D and short name of the subtasks are checkworthy, claim, harmful, and attentionworthy. For task 1, there are six languages (Arabic, Buglarian, Durch, English, Spanish and Turkish).
+- You have to zip the tsv, "zip subtask1B_claim_arabic.zip subtask1B_claim_arabic.tsv" and submit it through the codalab page.
 
-All leaderboard for dev and test data can be found here, https://competitions.codalab.org/competitions/30853.
-
-*NOTE*: The leaderboard for the Spanish test data is found in a separate leaderboard, https://competitions.codalab.org/competitions/31262. -->
+**Please submit your results on test data here: https://codalab.lisn.upsaclay.fr/competitions/4230.**
 
 
 ## List of Versions
