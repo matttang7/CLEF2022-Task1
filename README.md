@@ -56,7 +56,7 @@ Submission Guidelines:
 - Name of the output file have to be "subtask1[A/B/C/D]_SHORT-NAME-OF-THE-SUBTASK_LANG.tsv" with ".tsv" extension (e.g., subtask1B_claim_arabic.tsv); otherwise, you will get an error on the leaderboard. Subtask are 1A, 1B, 1C, 1D and short name of the subtasks are checkworthy, claim, harmful, and attentionworthy. For task 1, there are six languages (Arabic, Buglarian, Durch, English, Spanish and Turkish).
 - You have to zip the tsv, "zip subtask1B_claim_arabic.zip subtask1B_claim_arabic.tsv" and submit it through the codalab page.
 
-All leaderboard for dev and test data can be found here, https://codalab.lisn.upsaclay.fr/competitions/4230.
+**Please submit your results on test data here: https://codalab.lisn.upsaclay.fr/competitions/4230.**
 
 
 <!-- ## Task 2
