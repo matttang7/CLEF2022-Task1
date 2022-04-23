@@ -46,9 +46,9 @@ Kindly find the leaderboard released in this google sheet, [link](https://tinyur
 -->
 
 # Submission sites
-## Task 1 
+## Task 1
 
-Submission Guidelines:
+**Submission Guidelines:**
 - Make sure that you create one account for each team, and submit it through one account only.
 - <span style="color:blue;font-size:1.2em;">We will keep the leaderboard private till the end of the submission period, hence, results will not be available upon submission. All results will be available after the evaluation period.</span>
 - You are allowed to submit max 200 submissions per day for each subtask.
@@ -59,16 +59,18 @@ Submission Guidelines:
 **Please submit your results on test data here: https://codalab.lisn.upsaclay.fr/competitions/4230.**
 
 
-<!-- ## Task 2
+## Task 2
 
-Submission Guidelines:
+**Submission Guidelines:**
 - Make sure that you create one account for each team, and submit it through one account only.
+- <span style="color:blue;font-size:1.2em;">We will keep the leaderboard private till the end of the submission period, hence, results will not be available upon submission. All results will be available after the evaluation period.</span>
+- You are allowed to submit max 200 submissions per day for each subtask.
 - The last file submitted to the leaderboard will be considered as the final submission.
 - The output file has to have a `.tsv` extension; otherwise, you will get an error on the leaderboard.
 - You need to write a small description of the model submitted in a `.txt` file.
 - You have to zip the tsv, `zip submission.zip path_to_tsv_file.tsv model_description.txt` and submit it through the codalab page.
 
-All leaderboards for dev and test data can be found here, https://competitions.codalab.org/competitions/30949. -->
+**Please submit your results on test data here: https://codalab.lisn.upsaclay.fr/competitions/4260.**
 
 # Licensing
 

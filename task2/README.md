@@ -7,7 +7,7 @@ Given a check-worthy claim in the form of a tweet, and a set of previously fact-
 FCPD corpus for the CLEF-2022 LAB on "Detecting Check-Worthy Claims, Previously Fact-Checked Claims, and Fake News"
 ````
 
-This file contains the basic information regarding the CLEF2022-CheckThat! Task 2 is on Detecting Previously Fact-Checked Claims tweets and political debates. The current version are listed bellow corresponds to the release of the training and dev data sets.
+This file contains the basic information regarding the CLEF2022-CheckThat! Task 2 is on Detecting Previously Fact-Checked Claims tweets and political debates. The current version are listed bellow corresponds to the release of the training, dev and test data sets.
 
 __Table of contents:__
 - [Evaluation Results](#evaluation-results)
